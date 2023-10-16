@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalice.css" as="style">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Pedidos</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="titulo">
+            <h1>Migas Amigas</h1>
+        </div>
+
+    </header>
+    <br>
+
+    <div class="nav-bg">
+        <nav class="navegacion contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="sobreNosotros.html">Sobre nosotros</a>
+            <a href="pedidios.html">Pedidios</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="pedidosPortugal.html"> <img class="img-lengua" src="images/portugal.png" alt=""> </a>
+        </nav>
+
+    </div>
+
+    <main class="contenedor sombra espaciado">
+        <h2>Pedidos</h2>
+        <div class="img-pedidos">
+            <img src="images/caja.png" alt="">
+        </div>
+
+        <form action="" class="formulario sombra">
+            <fieldset>
+                <legend>Contactanos llenado todos los campos</legend>
+
+                <div class="campos">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <input class="casillas" type="text" placeholder="Tu Nombre">
+
+                    </div>
+                    <div class="campo">
+                        <label for="">Telefono</label>
+                        <input class="casillas" type="tel" placeholder="Tu telefono">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Correo</label>
+                        <input class="casillas" type="email" placeholder="Tu email">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Cantidad Barras de pan</label>
+                        <input class="casillas" type="number" placeholder="1" min="0">
+                    </div>
+                    <div class="campo">
+                        <label for="">Cantidad de roscas</label>
+                        <input class="casillas" type="number" placeholder="1" min="0">
+                    </div>
+                    <div class="campo">
+                        <label for="">Cantidad de bollos</label>
+                        <input class="casillas" type="number" placeholder="1" min="0">
+                    </div>
+                    <div class="campo">
+                        <label for="">Cantidad de purgitas</label>
+                        <input class="casillas" type="number" placeholder="1" min="0">
+                    </div>
+                    <div class="campo">
+                        <label for="">Mensaje para el repartidor</label>
+                        <textarea class="casillas" name="" id="" cols="30" rows="10"
+                            placeholder="Ej: No estoy en casa de 10:00 a 11:00"></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <div class="centrar-boton">
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </fieldset>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>Todos los derechos reservados Alvaro Moreno IES Virgen del Carmen. Icons by Icons8</p>
+    </footer>
+</body>
+
+</html>
